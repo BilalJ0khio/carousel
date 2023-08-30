@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>carousel</title>
+  </head>
+  <body>
+    <div class="carousel">
+      <button class="carousel__button carousel__button__left is-hidden">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <div class="carousel__slide__child">
+              <figure class="red">
+                <img src="venti-views-9R0vdXCPlEo-unsplash.jpg" alt="" />
+              </figure>
+              <!-- <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat earum optio iste? Ex sed sit, esse saepe totam quam
+                culpa quasi quaerat excepturi optio itaque possimus molestias
+                consequuntur eum quod?
+              </div> -->
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="carousel__slide__child">
+              <figure class="green">
+                <img src="ilia-bronskiy-IxqUT4zy89U-unsplash.jpg" alt="" />
+              </figure>
+              <!-- <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat earum optio iste? Ex sed sit, esse saepe totam quam
+                culpa quasi quaerat excepturi optio itaque possimus molestias
+                consequuntur eum quod?
+              </div> -->
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="carousel__slide__child">
+              <figure class="blue">
+                <img src="zeroquattro-art-8vd-h_8Ibmk-unsplash.jpg" alt="" />
+              </figure>
+              <!-- <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat earum optio iste? Ex sed sit, esse saepe totam quam
+                culpa quasi quaerat excepturi optio itaque possimus molestias
+                consequuntur eum quod?
+              </div> -->
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button__right">
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </button>
+
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button
+        ><button class="carousel__indicator"></button
+        ><button class="carousel__indicator"></button>
+      </div>
+    </div>
+
+    <!-- body end here  -->
+    <script src="script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
